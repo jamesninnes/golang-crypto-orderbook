@@ -1,0 +1,28 @@
+# Cryptocurrency Order Book API
+
+A simple cryptocurrency order book API built with Golang and the Gin web framework. This API allows users to create accounts, and manage buy and sell orders for cryptocurrencies.
+
+## Features
+
+- Create an account with email and password
+- Add, cancel, and modify orders associated with an account
+- Retrieve the current order book state
+
+## API Endpoints
+
+- POST /api/create_account
+- POST /api/add_order
+- POST /api/cancel_order
+- POST /api/modify_order
+- GET /api/orderbook
+
+## How to Run
+
+1. Install Golang
+2. Clone the repository
+3. Set the environment variables for the CryptoCompare API key
+4. Run the server using `go run main.go`
+
+## Docker
+
+A Dockerfile is provided to build and run the application in a container.
