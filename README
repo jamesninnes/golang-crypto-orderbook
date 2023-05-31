@@ -1,6 +1,6 @@
-# Cryptocurrency Order Book API
+# Order Book API
 
-A simple cryptocurrency order book API built with Golang and the Gin web framework. This API allows users to create accounts, and manage buy and sell orders for cryptocurrencies.
+A simple order book API built with Golang and the Gin web framework. This API allows users to create accounts, and manage buy and sell orders for cryptocurrencies.
 
 ## Features
 
